@@ -120,19 +120,28 @@ h2, h3, h4, h5 {
     margin-top: -174px;
 }
 
-#ninja img {
-    opacity: 0;
-    -webkit-animation: appear 50ms linear;
-    -moz-animation: appear 50ms linear;
-    -ms-animation: appear 50ms linear;
-    -o-animation: appear 50ms linear;
-    animation: appear 50ms linear;
+#ninja span {
 
-    -webkit-animation-delay: 0.75s;
-    -moz-animation-delay: 0.75s;
-    -ms-animation-delay: 0.75s;
-    -o-animation-delay: 0.75s;
-    animation-delay: 0.75s;
+    display: block;
+    width: 334px;
+    text-align: center;
+    font-size: 300px;
+    line-height: 330px;
+    color: #fff;
+    text-shadow: -2px 2px 5px rgba(29, 84, 153, 0.57);
+
+    opacity: 0;
+    -webkit-animation: scale-up 600ms linear;
+    -moz-animation: scale-up 600ms linear;
+    -ms-animation: scale-up 600ms linear;
+    -o-animation: scale-up 600ms linear;
+    animation: scale-up 600ms linear;
+
+    -webkit-animation-delay: 0.85s;
+    -moz-animation-delay: 0.85s;
+    -ms-animation-delay: 0.85s;
+    -o-animation-delay: 0.85s;
+    animation-delay: 0.85s;
 
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
@@ -260,8 +269,8 @@ body.loading #details, body.loading #contact {
 #companies {
     display: block;
     overflow: hidden;
-    padding-top: 20px;
     padding-bottom: 15px;
+    margin-top: -20px;
 }
 #companies ul {
     list-style-type: none;
@@ -269,10 +278,6 @@ body.loading #details, body.loading #contact {
     padding: 0;
 }
 /* drop-shadow */
-#companies {
-    background: url(/img/drop-shadow.png) no-repeat;
-    background-position: 50% 0%;
-}
 #schedule {
     background: url(/img/drop-shadow.png) no-repeat;
     background-position: 50% 100%;
