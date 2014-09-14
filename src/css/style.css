@@ -125,10 +125,11 @@ h2, h3, h4, h5 {
     display: block;
     width: 334px;
     text-align: center;
-    font-size: 300px;
-    line-height: 330px;
+    font-size: 32px;
     color: #fff;
     text-shadow: -2px 2px 5px rgba(29, 84, 153, 0.57);
+
+    margin-top: 120px;
 
     opacity: 0;
     -webkit-animation: scale-up 600ms linear;
@@ -194,63 +195,7 @@ body.loading #details, body.loading #contact {
     opacity: 0;
 }
 
-#apply {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: red;
-    text-transform: uppercase;
-    width: 128px;
-    text-align: center;
-    border: 5px solid red;
-    background: #FFF;
-    opacity: 0;
 
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    border-radius: 20px;
-
-    padding: 10px;
-    font-size: 24px;
-
-    -webkit-transform: translate3d(-350px, -200px, 0) rotate3d(0, 0, 1, 315deg);
-    -moz-transform: translate3d(-350px, -200px, 0) rotate3d(0, 0, 1, 315deg);
-    -ms-transform: translate3d(-350px, -200px, 0) rotate3d(0, 0, 1, 315deg);
-    -o-transform: translate3d(-350px, -200px, 0) rotate3d(0, 0, 1, 315deg);
-    transform: translate3d(-350px, -200px, 0) rotate3d(0, 0, 1, 315deg);
-
-    -webkit-perspective: 800px;
-    -moz-perspective: 800px;
-    -ms-perspective: 800px;
-    -o-perspective: 800px;
-    perspective: 800px;
-
-    -webkit-perspective-origin: 50% 100px;
-    -moz-perspective-origin: 50% 100px;
-    -ms-perspective-origin: 50% 100px;
-    -o-perspective-origin: 50% 100px;
-    perspective-origin: 50% 100px;
-
-    -webkit-animation: drop-in 0.3s ease-in;
-    -moz-animation: drop-in 0.3s ease-in;
-    -ms-animation: drop-in 0.3s ease-in;
-    -o-animation: drop-in 0.3s ease-in;
-    animation: drop-in 0.3s ease-in;
-
-    -webkit-animation-delay: 1.2s;
-    -moz-animation-delay: 1.2s;
-    -ms-animation-delay: 1.2s;
-    -o-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    -ms-animation-fill-mode: forwards;
-    -o-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
 
 /* COMPANIES */
 
@@ -364,6 +309,20 @@ body.loading #details, body.loading #contact {
 }
 .slideshow .nav-close {
     border-radius: 0 0 0 30px;
+}
+
+#apply {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background: url(/img/apply.png) no-repeat 0 0;
+}
+#apply a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 /* SCHEDULE */
