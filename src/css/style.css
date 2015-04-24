@@ -327,6 +327,7 @@ body.loading #details, body.loading #contact {
 }
 
 #apply {
+    display: none;
     position: absolute;
     top: 50px;
     right: 0;
@@ -654,3 +655,7 @@ table thead tr th {
     100% { transform: translate3d(0, -30px, 0) scale3d(0.5, 2, 1); }
 }
 
+
+#companies, #schedule, #titlebar nav li {
+    display: none;
+}
